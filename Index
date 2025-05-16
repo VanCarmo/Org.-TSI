@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<!-- saved from url=(0061)file:///C:/Users/vanessa.carmo/Downloads/organograma%203.html -->
+<html lang="pt-BR"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <title>Organograma TSI</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+      padding: 20px;
+    }
+
+    .tree {
+      padding: 10px;
+    }
+
+    .branch {
+      margin-top: 20px;
+      margin-left: 20px;
+      border-left: 2px dashed #ccc;
+      padding-left: 20px;
+      position: relative;
+    }
+
+    .node {
+      display: flex;
+      align-items: center;
+      background-color: #fff;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      padding: 10px;
+      margin-bottom: 10px;
+      cursor: pointer;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      width: fit-content;
+      transition: background 0.3s;
+    }
+
+    .node:hover {
+      background-color: #e6f2ff;
+    }
+
+    .node img {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      margin-right: 10px;
+      object-fit: cover;
+    }
+
+    .node .info {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .node .info span.name {
+      font-weight: bold;
+    }
+
+    .children {
+      display: none;
+      margin-left: 40px;
+    }
+
+    .visible {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Organograma TSI</h2>
+  <div class="tree">
+    <div class="branch">
+      <div class="node" onclick="toggleChildren(this)">
+        <div class="info">
+          <span class="name">Dennis Reis</span>
+          <span class="role">Head de TI</span>
+        </div>
+      </div>
+
+    <div class="banch">
+        <div class="node" onclick="toggleChildren(this)">
+        <div class="info">
+        <span class="name">Gisele Juri</span>
+              <span class="role">Gerente de Sistemas</span>
+            </div>
+          </div>
+      <div class="children">
+          <div class="node" onclick="toggleChildren(this)">
+            <div class="info">
+                <span class="name">Eduardo Macena​</span>
+                <span class="role">Coordenador de Sistemas</span>
+              </div>
+            </div>
+      <div class="children">
+            <div class="node">
+              <div class="info">
+                <span class="name">Henrique Schroder​</span>
+                <span class="role">Especialista de Sistemas</span>
+              </div>
+            </div>
+            <div class="node">
+              <div class="info">
+                <span class="name">Cristiane Rocha​</span>
+                <span class="role">Analista de Sistemas SR</span>
+              </div>
+            </div>
+            <div class="node">
+              <div class="info">
+                <span class="name">Rubia Lima</span>
+                <span class="role">Analista de Sistemas SR</span>
+              </div>
+            </div>
+            <div class="node">
+              <div class="info">
+                <span class="name">Isabella Modesto​</span>
+                <span class="role">Analista de Sistemas PL</span>
+              </div>
+            </div>
+            <div class="node">
+              <div class="info">
+                <span class="name">Vanderson Almeida​</span>
+                <span class="role">Especialista de Sistemas</span>
+              </div>
+            </div>
+            <div class="node">
+              <div class="info">
+                <span class="name">Vanessa Carmo</span>
+                <span class="role">Analista de Sistemas Jr</span>
+           </div>
+            </div>
+             </div>
+              <div class="branch">
+              <div class="node" onclick="toggleChildren(this)">
+              <div class="info">
+               <span class="name">Reginaldo Quideroli​</span>
+           <span class="role">Coordenador de Sistemas</span>
+              </div>
+            </div>
+      <div class="children">
+            <div class="node">
+              <div class="info">
+                <span class="name">Andrey Macedo​</span>
+                <span class="role">Analista de Sistemas SR</span>
+              </div>
+            </div>
+            <div class="node">
+              <div class="info">
+                <span class="name">Fabio Queiroz</span>
+                <span class="role">Analista de Sistemas PL</span>
+              </div>
+            </div>
+            <div class="node">
+              <div class="info">
+                <span class="name">Beatriz Alevs​</span>
+                <span class="role">Desenvolvedor PL</span>
+              </div>
+            </div>
+            <div class="node">
+              <div class="info">
+                <span class="name">Guilherme Castro</span>
+                <span class="role">Desenvolvedor JR</span>
+              </div>
+            </div>
+            <div class="node">
+              <div class="info">
+                <span class="name">Jheniffer Pereira</span>
+                <span class="role">Desenvolvedor JR</span>
+              </div>
+            </div>
+            <div class="node">
+              <div class="info">
+                <span class="name">Livia Ferreira</span>
+                <span class="role">Desenvolvedor JR</span>
+              </div>
+            </div>
+            <div class="node">
+              <div class="info">
+                <span class="name">Marco Godinho</span>
+                <span class="role">Analista de Sistemas SR</span>
+              </div>
+            </div>
+            <div class="node">
+              <div class="info">
+                <span class="name">Lucas Linhares</span>
+                <span class="role">Analista de Sistemas PL</span>
+              </div>
+            </div>
+            <div class="node">
+              <div class="info">
+                <span class="name">Luiz Gilberto</span>
+                <span class="role">Analista de Sistemas PL</span>
+              </div>
+            </div>
+            <div class="node">
+              <div class="info">
+                <span class="name">Rodrigo Prado</span>
+                <span class="role">Analista de Sistemas PL</span>
+              </div>
+            </div>
+            <div class="node">
+              <div class="info">
+                <span class="name">Christiane Guedes</span>
+                <span class="role">Analista de Suporte Jr</span>
+              </div>
+            </div>
+           </div>
+          </div>
+        </div>
+       </div>
+      </div>
+     <div class="branch">
+      <div class="node" onclick="toggleChildren(this)">
+      <div class="info">
+       <span class="name">Kleber Fonseca</span>
+        <span class="role">Coordenador de Sistemas</span>
+            </div>
+          </div>
+         <div class="children">
+            <div class="node">
+              <div class="info">
+                <span class="name">Simone Nascimento</span>
+                <span class="role">Especialista de Software</span>
+             </div>
+            </div>
+            <div class="node">
+              <div class="info">
+                <span class="name">Fabio Vitorin</span>
+                <span class="role">Especialista de Software</span>
+             </div>
+        </div>
+       </div>
+      </div>
+     <div class="branch">
+          <div class="node" onclick="toggleChildren(this)">
+            <div class="info">
+              <span class="name">Elizabeth Crescenzi</span>
+              <span class="role">Coordenadora de Facilities</span>
+            </div>
+          </div>
+          <div class="children">
+            <div class="node">
+              <div class="info">
+                <span class="name">Sarah Queiroz</span>
+                <span class="role">Analista Administrativo</span>
+             </div>
+            </div>
+            <div class="node">
+              <div class="info">
+                <span class="name">Luana Amorim</span>
+                <span class="role">Auxiliar Administrativo</span>
+              </div>
+            </div>
+            <div class="node">
+              <div class="info">
+                <span class="name">João Soares​</span>
+                <span class="role">Auxiliar Administrativo</span>
+             </div>
+            </div>
+            <div class="node">
+              <div class="info">
+                <span class="name">Luis Araujo​</span>
+                <span class="role">Auxiliar Administrativo</span>
+             </div>
+            </div>
+            <div class="node">
+              <div class="info">
+                <span class="name">Luis Araujo​</span>
+                <span class="role">Auxiliar Administrativo</span>
+             </div>
+            </div>
+            <div class="node">
+              <div class="info">
+                <span class="name">Marisa Oliveira​</span>
+                <span class="role">Auxiliar de Limpeza</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="branch">
+          <div class="node" onclick="toggleChildren(this)">
+            <div class="info">
+              <span class="name">Luis Kapp</span>
+              <span class="role">Gerente de Infraestrutura</span>
+            </div>
+          </div>
+          <div class="children">
+            <div class="node">
+              <div class="info">
+                <span class="name">Eduardo Ianaguiva​</span>
+                <span class="role">Analista de Suporte SR</span>
+              </div>
+            </div>
+            <div class="node">
+              <div class="info">
+                <span class="name">André Assis​</span>
+                <span class="role">Analista de Suporte PL</span>
+             </div>
+            </div>
+            <div class="node">
+              <div class="info">
+                <span class="name">João Alves​</span>
+                <span class="role">Analista de Suporte Jr</span>
+             </div>
+            </div>
+            <div class="node">
+              <div class="info">
+                <span class="name">Fabio Ferreira</span>
+                <span class="role">Analista de Suporte Jr</span>
+             </div>
+            </div>
+            <div class="node">
+              <div class="info">
+                <span class="name">Julio Giacon</span>
+                <span class="role">Analista de Suporte Jr</span>
+             </div>
+            </div>
+            <div class="node">
+              <div class="info">
+                <span class="name">Rui Dias</span>
+                <span class="role">Analista de Suporte Jr</span>
+             </div>
+            </div>
+            <div class="node">
+              <div class="info">
+                <span class="name">Pamela Souza</span>
+                <span class="role">Técnico de Suporte</span>
+             </div>
+            </div>
+            <div class="node">
+              <div class="info">
+                <span class="name">Victoria Labadesa</span>
+                <span class="role">Técnico de Suporte</span>
+             </div>
+            </div>
+            <div class="node">
+              <div class="info">
+                <span class="name">Maycon Rocha</span>
+                <span class="role">Técnico de Suporte</span>
+             </div>
+            </div>
+            <div class="node">
+              <div class="info">
+                <span class="name">Eduardo Brito</span>
+                <span class="role">Técnico de Suporte</span>
+             </div>
+            </div>
+            <div class="node">
+              <div class="info">
+                <span class="name">Weyler Silva</span>
+                <span class="role">Técnico de Suporte</span>
+             </div>
+            </div>
+            <div class="node">
+              <div class="info">
+                <span class="name">Paulo H. Lima</span>
+                <span class="role">Técnico de Segurança da Informação</span>
+             </div>
+            </div>
+            <div class="node">
+              <div class="info">
+                <span class="name">Izabella Leite</span>
+                <span class="role">Assistente Administrativo</span>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+  
+
+  <script>
+    function toggleChildren(element) {
+      const children = element.nextElementSibling;
+      if (children && children.classList.contains("children")) {
+        children.classList.toggle("visible");
+      }
+      event.stopPropagation();
+    }
+  </script>
+
+
+</body></html>
