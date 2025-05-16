@@ -1,0 +1,12 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Exemplo de iFrame</title>
+</head>
+<body>
+  <h1>Meu iFrame</h1>
+  <iframe src="https://example.com" width="600" height="400" frameborder="0"></iframe>
+</body>
+</html>
